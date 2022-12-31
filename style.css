@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing:content-box;
+    font-family: sans-serif;
+    
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    
+    /* Start Navbar css */
+    
+    .searchicon{
+       position: relative; margin-left: 78pc; margin-bottom: 2.7pc; 
+       margin-top: -26%; padding: 0px; cursor: pointer;
+    }
+
+    .searchicon:hover{
+        background-color:  rgb(63, 159, 190);
+        
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        
+        
+    }
+    nav{
+        flex:1;
+        margin-left: 9%;
+        
+    }
+    nav ul{
+        display: inline;
+        list-style-type:none;
+        
+    }
+    nav ul li{
+        padding-left: 2%; 
+        display:inline;
+        margin-right: 20px;
+        font-size: large;
+    }
+    a:hover{
+        color: rgb(63, 159, 190);
+    }
+    .container{
+        background: url(./Group\ 1655.png);
+        height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute;
+    }
+    a{
+    text-decoration: none;
+        color: white;
+        font-size: small;
+        font-family: myfonts;
+        
+    }
+
+
+    .l1{
+        margin-left: 22%;
+    }
+    .lin{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -1.5pc;
+    }
+
+    /* Front Page css */
+    .ais{
+        font-size: 63px;
+        margin-top: 11.8pc;
+        margin-left: 4.6pc;
+        text-align: left;
+    }
+    .ais2{
+        font-size: 63px;
+        margin-left: 27pc;
+        margin-top: -4.6pc; text-align: left;
+    }
+    @font-face{
+        font-family:myfonts;
+        src: url(./Montserrat-VariableFont_wght.ttf);
+    }
+  
+    .p1{
+        
+        color: white;
+        font-size: 31px;
+        font-family:myfonts;
+        margin-left: 4.5pc ;
+    text-align: left;
+    }
+
+    #b1{
+        text-align: left; text-indent: 1.5pc;
+        width: 190px;
+        padding: 13px ;
+        color: rgb(63, 159, 190);
+        border: 0px;
+        border-bottom: solid 3px rgb(63, 159, 190);
+        border-left: rgb(63, 159, 190);
+        border-right: rgb(63, 159, 190);
+        border-color: none;
+        border-radius: 22px;
+        font-size:medium;
+       margin-top: 0.5pc; margin-left:4.5pc ;
+       cursor: pointer;
+    }
+    /* Short Menu css */
+    .c2{
+        margin-top: 41pc;
+        background:black;
+        height: 30.5%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position: absolute;
+    }
+    table{
+        margin-left: 2pc;
+        margin-top: 0.6pc;
+    }
+    
+    tr{
+        color: white;
+    }
+    td{
+        width: 140px;
+        /* border: 1px; */
+    }
+    .t1{
+        color: white;
+        font-size: xx-small;
+    }
+    #i1{
+        margin-top: .9pc;
+        margin-left: 3pc;
+    }
+
+    .i2{
+        margin-left: 12pc;
+    }
+
+    .im{
+        border-left: solid 2px rgb(139, 135, 135); height:  1.3in; margin-top: 2pc;
+    }
+    .lorem{
+        margin-top: .6pc;
+
+        margin-left: .8pc;
+    }
+    #lorem1{
+        margin-left: 17pc;
+        width: 328px;
+    }
+    
+
+    /* About US css */
+.c3{
+    padding-top: 56pc;
+    background: white;
+    height: 5in;
+    width: 680px;
+
+
+}
+
+#b2{
+    width: 103px; filter: opacity(500%);
+    font-family: myfonts;
+        padding: 6px ;
+        color: rgb(63, 159, 190);
+        background-color: black;
+        border: 0px;
+        border-color: none;
+        border-radius: 8px;
+        font-size:small;
+        margin-left: 5.5pc;
+        font-weight: bold ;
+       cursor: pointer;
+       margin-bottom: 1.5pc;
+}
+
+.para4{
+    font-size: small; width: 300px;
+    margin-top: 0.5pc;
+}
+.b3{
+    width: 82px ;
+    padding: 8px ;
+    color:white;
+    background-color: rgb(63, 159, 190);
+    border: 0px;
+    border-bottom: solid 3px black;  
+    border-radius: 18px;
+    font-size:small; font-weight: bold;
+    margin-top: 1pc;
+   cursor: pointer;
+} .about{ 
+    text-align: left;
+    margin-left: 5.5pc; 
+    margin-top: -20pc; 
+}
+
+.aboutus{
+    margin-top: 5.8pc;
+}
+
+.shuttle{
+    filter: opacity(500%);
+    width: 7.6in; 
+    margin-top: -30pc;
+    margin-left: 33pc; align-items:center;
+
+}
+.c5{
+    background: url(./about-sky.png);
+        height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute;  
+}
+@font-face{
+    font-family:myfonts1;
+    src: url(./Montserrat-Italic-VariableFont_wght.ttf);
+}
+.car{
+    width: 10in;
+    position: relative; top: -14.5pc; 
+}
+.c6{
+    background: #1a1a1a;
+        height: 135.3%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute; margin-top: 32.5pc;
+}
+
+@font-face{
+    font-family:myfonts2;
+    src: url(./Montserrat-Light.ttf);
+}
+
+.b4{
+    font-family:myfonts2 ;
+    position: relative;  bottom: 9.5pc;
+    width: 5.5in ;
+    padding: 0.2in ;
+    color:black;
+background-color: white;
+    border: solid 1.5px rgb(63, 159, 190);  
+    border-radius: 38px;
+   cursor: pointer; 
+   box-shadow: inset 2px 5px 5px 5px rgba(0, 0, 0, 0.3);
+   font-size:xx-large; text-align:left; text-indent: 1pc;
+   
+}
+
+@font-face{
+    font-family:myfontsbold;
+    src: url(./static/Montserrat-Bold.ttf);
+}
+
+.addison{
+   font-family: myfontsbold; color: rgb(63, 159, 190); margin-left: 27pc;
+    margin-top: -8pc; font-size: xx-large; margin-right: 53pc;
+}
+
+
+.algon{
+    position: relative; color: rgb(63, 159, 190); margin-left: 27pc; margin-top: 1pc;
+    font-size: xx-large; font-family: myfontsbold; margin-right: 53pc;
+}
+#hr{
+    width: 28pc; 
+    margin-left: -2.3pc; 
+    margin-top: .6pc;
+}
+#hr1{
+    width: 28pc; 
+    margin-left: -2.3pc; 
+    margin-top: -22pc;
+    color: gray;
+}
+
+.ending{
+    color: rgb(187, 187, 187) ;
+    font-family: myfonts;
+    margin-top: 06pc;
+}
+
+/* .scroll {
+    width: 910px;
+    height: 354px;
+    overflow:auto;
+    margin-top: -0.4pc;   
+  } */
+  .c7{
+    background: url(./cesar-couto-TIvFLeqZ4ec-unsplash.png);
+        height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute; margin-top: 88pc;
+}
+
+.c8{
+    background: #1a1a1a;
+        height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute; margin-top: 120pc;
+}
+
+.trucks{
+    height: 3.1in;
+    margin-left: 5.5pc;
+    margin-top: -11pc;
+}
+.fyf{
+    margin-top: 14.5pc;
+}
+.rates{
+   position: relative; 
+   bottom: 9.5pc;
+}
+.c9{
+    background: white;
+        height: 40%;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    position:absolute; margin-top: 175pc;
+}
+
+.b5{
+    width: 11pc;
+    font-family: myfonts;
+        padding: 6px ;
+        color: rgb(63, 159, 190);
+        background-color: #000;
+        border: 0px;
+        border-color: none;
+        border-radius: 8px;
+        font-size:small;
+        bottom: 10pc;
+        font-weight: bold ; margin-bottom: 1pc;
+       
+}
+#endnote{
+    font-family: myfonts1;
+    font-size:x-large; font-weight: bold;
+    position: relative;
+    bottom: 3.5pc;
+}
+.love{
+     margin-top: -10pc;
+}
+
+.s1{
+    
+        background: url(./samuele-errico-piccarini-qAc-1.png);
+            height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position:center ;
+        position:absolute; margin-top: 205pc;
+    
+}
+
+.s2{
+    background-color: rgba(0, 0, 0, 0.644);
+     background-size: cover;
+    background-position:center ;
+    position:absolute; 
+    height: 100%;
+    width: 100%;
+}
+.b6{
+    width: 6.5pc;
+    position: relative;
+    font-family: myfonts;
+        padding: 6px ;
+        background-color: rgb(63, 159, 190);
+        color: black;
+        border: 0px;
+        border-color: none;
+        border-radius: 8px;
+        font-size:medium;
+        bottom: 10pc;
+        font-weight: bold ;
+       top: 8pc; right: .3pc;
+}
+
+.cr{
+    width: 390px;
+    font-size: medium; font-family: myfonts1; color: white;
+    position: relative; top: 2.1pc;
+}
+.client{
+    position: relative; top: 9pc;
+}
+.s3{
+    /* background-image: url(./1606.m00.i125.n007.S.c12.150566579\ Earth\ globe\ world\ map\ of\ dots\ vector\ illustration\ [Converted].png); */
+    background: #1a1a1a;
+    background-size:auto;
+    background-position:center ;
+     background-repeat: no-repeat;
+    height: 45pc;
+    width: 100%;
+    margin-top: 246pc;
+}
+.s4{
+    position: relative;
+    top: 3pc;
+}
+
+.b7{
+    font-family:myfonts2 ;
+   position: relative; bottom: 34.5pc; margin-left: 49pc;
+    width: 4.8in ;
+    padding: 0.2in ;
+    color:black;
+background-color: white;
+    border: solid 2px rgb(63, 159, 190);  
+    border-radius: 38px;
+   cursor: pointer; 
+   font-size:x-large; text-align:left; text-indent: 0.5pc;
+   
+}
+
+/* footer icons */
+#icons{
+    width: 40px; position: relative; right: 9pc;
+}
+
+#icons2{
+    width: 60px;
+}
+
+#icons3{
+    height: 40px; position: relative; left: 11.8pc;
+}
+
+#icons4{
+    height: 40px; position: relative; left: 22.5pc;
+}
+
+.fl{
+    position: relative; margin-top: 11.7pc; margin-left:20.4pc ;
+}
+
